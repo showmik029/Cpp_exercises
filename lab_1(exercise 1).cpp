@@ -3,7 +3,7 @@
 
 int main()
 {  int num;
-    std::cout << "How many numbers do you want to enter?: ";
+    std::cout << "How many numbers do you want to enter?:  ";
     std::cin >> num;
     std::vector<int>numbers;
     for (int i = 1; i <= num; i++)
@@ -20,7 +20,7 @@ int main()
         count++;
         if (count !=numbers.size())
         {
-            std::cout << ",";
+            std::cout << ", ";
         }
     }
 
